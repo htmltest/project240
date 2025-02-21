@@ -1,0 +1,257 @@
+.landoven-wrapper,
+.landoven-wrapper *,
+.landoven-wrapper *::before,
+.landoven-wrapper *::after {outline:none; box-sizing:border-box; font-family:Hotpoint, sans-serif; letter-spacing:0; color:#FFFFFF}
+
+.landoven-wrapper {background:#000000; position:relative; overflow:hidden; width:100%; padding:0 0 120px 0}
+
+@media (max-width:1167px) {
+    .landoven-wrapper {padding:0 0 80px 0}
+}
+
+.landoven-container {margin:0 auto; max-width:1168px; width:100%}
+
+@media (max-width:1167px) {
+    .landoven-container {padding:0 10px}
+}
+
+.landoven-welcome {position:relative; display:flex; height:450px; align-items:center; background:url(../img/landoven-welcome.jpg) no-repeat center; background-size:cover}
+.landoven-welcome::before {content:""; position:absolute; left:0; top:0; width:50%; bottom:0; background:linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.536) 27.5%, rgba(201, 155, 105, 0.376) 75%, rgba(201, 155, 105, 0) 100%)}
+.landoven-welcome .landoven-container {position:relative}
+.landoven-welcome-title {font-size:48px; line-height:58px; font-weight:500}
+.landoven-welcome-text {margin:20px 0 0 0; max-width:540px; font-weight:normal; font-size:20px; line-height:30px}
+.landoven-welcome-link {margin:40px 0 0 0; display:flex}
+.landoven-welcome-link a {display:flex; height:50px; padding:0 23px; align-items:center; border:1px solid #CEA476; border-radius:4px; color:#CEA476; text-decoration:none; font-weight:500; font-size:16px; line-height:16px; text-transform:uppercase; transition:background 0.8s, color 0.8s}
+@media (min-width:1168px) {
+    .landoven-welcome-link a:hover {color:#FFFFFF; background:#CEA476}
+}
+
+@media (max-width:1167px) {
+    .landoven-welcome {height:463px; text-align:center; align-items:stretch; background:url(../img/landoven-welcome-mobile.jpg) no-repeat center top; background-size:auto 463px}
+    .landoven-welcome::before {width:auto; right:0; bottom:auto; height:222px; background:linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.536) 27.5%, rgba(201, 155, 105, 0.376) 75%, rgba(201, 155, 105, 0) 100%)}
+    .landoven-welcome::after {content:""; position:absolute; left:0; height:98px; right:0; bottom:0; background:linear-gradient(0deg, rgba(0, 0, 0, 0.8) 5%, rgba(0, 0, 0, 0.514388) 59.46%, rgba(0, 0, 0, 0) 91.23%)}
+    .landoven-welcome .landoven-container {z-index:1; display:flex; flex-direction:column}
+    .landoven-welcome-title {padding:40px 0 0 0; font-size:30px; line-height:36px}
+    .landoven-welcome-text {margin:15px 0 0 0; font-size:15px; line-height:23px; max-width:none; flex-grow:1}
+    .landoven-welcome-link {display:flex; height:21.59%; align-items:center; justify-content:center}
+    .landoven-welcome-link a {text-align:center; width:100%; height:41px; padding:0; justify-content:center}
+}
+
+.landoven-functions {margin:80px 0 0 0}
+.landoven-functions-title {font-weight:normal; font-size:40px; line-height:48px}
+.landoven-functions-anonce {margin:20px 0 0 0; font-weight:500; font-size:18px; line-height:27px}
+.landoven-functions-slider {margin:40px 0 0 0; position:relative}
+.landoven-functions-slider-list {overflow:hidden; border-radius:16px}
+.landoven-functions-slider-item {height:540px; position:relative; display:flex; align-items:flex-end; padding:30px}
+.landoven-functions-slider-item-bg {position:absolute; left:0; top:0; right:0; bottom:0; background:no-repeat center; background-size:cover}
+.landoven-functions-slider-item-bg::before {content:""; position:absolute; left:0; top:0; right:0; bottom:0; background:linear-gradient(228.44deg, rgba(0, 0, 0, 0) 53.61%, rgba(0, 0, 0, 0.9) 73.89%)}
+.landoven-functions-slider-item-bg-mobile {display:none}
+.landoven-functions-slider-item-inner {position:relative; max-width:544px; width:100%}
+.landoven-functions-slider-item-title {font-size:24px; font-weight:500; line-height:29px}
+.landoven-functions-slider-item-text {margin:20px 0 0 0; font-weight:normal; font-size:16px; line-height:24px}
+.landoven-functions-slider-item-text p {margin:15px 0 0 0; padding:0}
+.landoven-functions-slider-item-text p:first-child {margin:0}
+.landoven-functions-slider-item-link {display:flex; margin:20px 0 0 0}
+.landoven-functions-slider-item-link a {display:flex; height:43px; padding:0 23px; align-items:center; border:1px solid #CEA476; border-radius:4px; color:#CEA476; text-decoration:none; font-weight:normal; font-size:16px; line-height:16px; text-transform:uppercase; transition:background 0.8s, color 0.8s}
+@media (min-width:1168px) {
+    .landoven-functions-slider-item-link a:hover {color:#FFFFFF; background:#CEA476}
+}
+.landoven-functions-slider .swiper-button-prev,
+.landoven-functions-slider .swiper-button-next {position:absolute; display:flex; align-items:center; justify-content:center; z-index:2; top:252px; width:36px; height:36px; border:none; border-radius:0; margin:0; padding:0; outline:none; -webkit-appearance:none; cursor:pointer; background:transparent; transform:none; opacity:1}
+.landoven-functions-slider .swiper-button-prev::after,
+.landoven-functions-slider .swiper-button-next::after {display:none}
+.landoven-functions-slider .swiper-button-prev {left:-76px}
+.landoven-functions-slider .swiper-button-next {right:-76px}
+.landoven-functions-slider .swiper-button-prev svg,
+.landoven-functions-slider .swiper-button-next svg {display:block; width:36px; height:36px; fill:#C99B69; transition:fill 0.3s ease-in-out}
+@media (min-width:1168px) {
+    .landoven-functions-slider .swiper-button-prev:hover svg,
+    .landoven-functions-slider .swiper-button-next:hover svg {fill:#FFFFFF}
+}
+.landoven-functions-slider .swiper-pagination.swiper-pagination-horizontal {display:flex; position:relative; margin:40px 0 0 0; width:auto; left:auto; top:auto; right:auto; bottom:auto; align-items:center; justify-content:center}
+.landoven-functions-slider .swiper-pagination.swiper-pagination-horizontal .swiper-pagination-bullet {display:block; min-width:5px; max-width:5px; height:5px; background:#D9D9D9; opacity:1; margin:0 0 0 30px; border-radius:50%; cursor:pointer; position:relative}
+.landoven-functions-slider .swiper-pagination.swiper-pagination-horizontal .swiper-pagination-bullet:first-child {margin:0}
+.landoven-functions-slider .swiper-pagination.swiper-pagination-horizontal .swiper-pagination-bullet-active {min-width:10px; max-width:10px; height:10px; background:#C99B69; opacity:1}
+
+@media (max-width:1167px) {
+    .landoven-functions {margin:60px 0 0 0}
+    .landoven-functions-title {font-size:24px; line-height:29px; text-align:center}
+    .landoven-functions-anonce {font-size:13px; line-height:20px; text-align:center}
+    .landoven-functions-slider {margin:20px 0 0 0}
+    .landoven-functions-slider-list {border-radius:8px}
+    .landoven-functions-slider-item {padding:15px}
+    .landoven-functions-slider-item-bg {display:none}
+    .landoven-functions-slider-item-bg-mobile {display:block; position:absolute; left:0; top:0; right:0; bottom:0; background:no-repeat center; background-size:cover}
+    .landoven-functions-slider-item-bg-mobile::before {content:""; position:absolute; left:0; top:0; right:0; bottom:0; background:linear-gradient(180deg, rgba(0, 0, 0, 0) 34.72%, rgba(0, 0, 0, 0.9) 100%)}
+    .landoven-functions-slider-item-inner {max-width:none}
+    .landoven-functions-slider-item-title {font-size:20px; line-height:24px}
+    .landoven-functions-slider-item-text {margin:15px 0 0 0; font-size:12px; line-height:18px}
+    .landoven-functions-slider-item-link {margin:15px 0 0 0}
+    .landoven-functions-slider-ctrl {margin:20px 0 0 0; display:flex; align-items:center}
+    .landoven-functions-slider .swiper-button-prev,
+    .landoven-functions-slider .swiper-button-next {position:relative; left:auto; top:auto; right:auto; min-width:30px; max-width:30px; width:30px; height:30px}
+    .landoven-functions-slider .swiper-button-prev svg,
+    .landoven-functions-slider .swiper-button-next svg {width:30px; height:30px}
+    .landoven-functions-slider .swiper-pagination.swiper-pagination-horizontal {margin:0; flex:1}
+}
+
+.landoven-techs {margin:80px 0 0 0}
+.landoven-techs-title {font-weight:normal; font-size:40px; line-height:48px}
+.landoven-techs-anonce {margin:20px 0 0 0; font-weight:500; font-size:18px; line-height:27px}
+.landoven-techs-container {margin:40px 0 0 0; position:relative; height:657px; background:url(../img/landoven-techs.jpg) no-repeat center; background-size:auto 657px; border-radius:16px}
+.landoven-techs-content {width:1168px; height:657px; position:relative}
+.landoven-techs-item {position:absolute}
+@media (min-width:1168px) {
+    .landoven-techs-item:hover {z-index:1}
+}
+.landoven-techs-item-icon {position:absolute; left:-18px; top:-18px; width:36px; height:36px; border-radius:50%; background:rgba(206, 164, 118, 0.5); transition:background 0.8s; cursor:pointer}
+.landoven-techs-item-icon::before {content:""; position:absolute; left:6px; top:6px; width:24px; height:24px; border-radius:50%; background:rgba(206, 164, 118, 0.5); transition:background 0.8s}
+.landoven-techs-item-icon::after {content:""; position:absolute; left:12px; top:12px; width:12px; height:12px; border-radius:50%; background:#FFFFFF}
+@media (min-width:1168px) {
+    .landoven-techs-item:hover .landoven-techs-item-icon {background:rgba(255, 255, 255, 0.5)}
+    .landoven-techs-item:hover .landoven-techs-item-icon::before {background:rgba(255, 255, 255, 0.5)}
+}
+.landoven-techs-item-hint {position:absolute; width:401px; padding:15px; background:rgba(0, 0, 0, 0.8); border:1px solid rgba(255, 255, 255, 0.2); border-radius:10px; pointer-events:none; opacity:0; transition:opacity 0.8s}
+@media (min-width:1168px) {
+    .landoven-techs-item:hover .landoven-techs-item-hint {opacity:1}
+}
+.landoven-techs-item-hint-1 {width:463px; left:0; bottom:23px}
+.landoven-techs-item-hint-2 {left:25px; top:-18px}
+.landoven-techs-item-hint-3 {left:1px; bottom:19px}
+.landoven-techs-item-hint-4 {left:-190px; bottom:19px}
+.landoven-techs-item-hint-5 {right:0; bottom:19px}
+.landoven-techs-item-hint-6 {right:0; bottom:20px}
+.landoven-techs-item-hint-7 {left:0; bottom:20px}
+.landoven-techs-item-hint-8 {left:12px; top:12px}
+.landoven-techs-item-hint-9 {left:12px; bottom:12px}
+.landoven-techs-item-hint-title {font-weight:500; font-size:16px; line-height:19px}
+.landoven-techs-item-hint-text {margin:10px 0 0 0; font-weight:normal; font-size:14px; line-height:21px}
+
+@media (max-width:1167px) {
+    .landoven-techs-title {font-size:24px; line-height:29px; text-align:center}
+    .landoven-techs-anonce {font-size:13px; line-height:20px; text-align:center}
+    .landoven-techs-container {height:590px; background:none; overflow:hidden; border-radius:8px}
+    .landoven-techs-container::before {content:""; position:absolute; left:50%; top:0; width:1168px; height:657px; margin-left:-574px; background:url(../img/landoven-techs.jpg) no-repeat left -67px; background-size:1168px 657px}
+    .landoven-techs-content {left:50%; top:-67px; margin-left:-574px}
+    .landoven-techs-item.open {z-index:1}
+    .landoven-techs-item.open .landoven-techs-item-icon {background:rgba(255, 255, 255, 0.5)}
+    .landoven-techs-item.open .landoven-techs-item-icon::before {background:rgba(255, 255, 255, 0.5)}
+    .landoven-techs-item.open .landoven-techs-item-hint {opacity:1}
+    .landoven-techs-item-hint {width:280px}
+    .landoven-techs-item-hint-1 {width:280px; left:-169px; bottom:33px}
+    .landoven-techs-item-hint-2 {left:-252px; top:auto; bottom:62px}
+    .landoven-techs-item-hint-3 {left:-246px; bottom:243px}
+    .landoven-techs-item-hint-4 {left:-140px; bottom:243px}
+    .landoven-techs-item-hint-5 {right:auto; left:-33px; bottom:243px}
+    .landoven-techs-item-hint-6 {right:auto; left:-33px; bottom:63px}
+    .landoven-techs-item-hint-7 {left:-76px; bottom:63px}
+    .landoven-techs-item-hint-8 {left:-140px; top:auto; bottom:109px}
+    .landoven-techs-item-hint-9 {left:-87px; bottom:184px}
+    .landoven-techs-item-hint-text {font-size:12px; line-height:18px}
+}
+
+.landoven-select {margin:100px 0 0 0}
+.landoven-select-logo {display:flex; justify-content:center}
+.landoven-select-title {margin:20px 0 0 0; text-align:center; font-weight:normal; font-size:40px; line-height:60px}
+.landoven-select-container {margin:40px 0 0 0; position:relative; align-items:flex-start}
+.landoven-select-filter {position:absolute; left:0; top:0; right:0; height:0}
+.landoven-select-filter-title {display:none}
+.landoven-select-filter form {margin:0; padding:0}
+.landoven-select-filter-left {position:absolute; left:0; top:0; width:356px}
+.landoven-select-filter-right {position:absolute; right:0; top:0; width:356px}
+.landoven-select-filter-group {margin:30px 0 0 0}
+.landoven-select-filter-group:first-child {margin:0}
+.landoven-select-filter-group-title {font-weight:bold; font-size:14px; line-height:21px; text-transform:uppercase; color:rgba(255, 255, 255, 0.5)}
+.landoven-select-filter-group-sections {margin:10px 0 0 0}
+.landoven-select-filter-group-section {margin:10px 0 0 0; position:relative}
+.landoven-select-filter-group-section-title {display:flex; font-size:14px; line-height:21px}
+.landoven-select-filter-group-section-title a {display:flex; align-items:center; color:#FFFFFF; text-decoration:none; transition:color 0.8s}
+@media (min-width:1168px) {
+    .landoven-select-filter-group-section-title a:hover {color:#C99B69}
+}
+.landoven-select-filter-group-section.open .landoven-select-filter-group-section-title a {color:#C99B69}
+.landoven-select-filter-group-section-title a svg {min-width:12px; max-width:12px; height:7px; margin:4px 18px 0 0; fill:#C99B69; transition:transform 0.8s}
+.landoven-select-filter-group-section.open .landoven-select-filter-group-section-title a svg {transform:rotate(-180deg)}
+.landoven-select-filter-group-section-content {position:absolute; left:-9999px; top:-9999px; width:100%; opacity:0; transition:opacity 0.8s; padding:10px 30px 5px 29px}
+.landoven-select-filter-group-section.open .landoven-select-filter-group-section-content {position:relative; left:auto; top:auto; opacity:1}
+.landoven-select-filter-block-checkboxes label {display:block; cursor:pointer; margin:10px 0 0 0}
+.landoven-select-filter-block-checkboxes label:first-child {margin:0}
+.landoven-select-filter-block-checkboxes label input {display:none}
+.landoven-select-filter-block-checkboxes label span {display:block; position:relative; padding:0 0 0 30px; font-weight:normal; font-size:14px; line-height:21px; color:#FFFFFF}
+.landoven-select-filter-block-checkboxes label span::before {content:""; position:absolute; left:0; top:1px; width:20px; height:20px; border:1px solid rgba(227, 227, 227, 0.5); border-radius:2px; background:url(../img/landoven-select-checkbox.svg) no-repeat -9999px -9999px; transition:background-color 0.8s, border-color 0.8s}
+.landoven-select-filter-block-checkboxes label input:checked+span::before {border-color:#C99B69; background-color:#C99B69; background-position:center}
+.landoven-select-filter-slider .landoven-select-slider {position:relative; margin:8px 0 0 0}
+.landoven-select-filter-slider .landoven-select-slider-range {position:relative; height:2px}
+.landoven-select-filter-slider .landoven-select-slider-range-inner {position:relative}
+.landoven-select-filter-slider .noUi-target {background:rgba(255, 255, 255, 0.25); border:none; box-shadow:none; border-radius:0}
+.landoven-select-filter-slider .noUi-horizontal {height:2px}
+.landoven-select-filter-slider .noUi-connects {border-radius:0}
+.landoven-select-filter-slider .noUi-connect {background:#C99B69}
+.landoven-select-filter-slider .noUi-horizontal .noUi-handle {width:8px; height:8px; right:-4px; top:-3px; border:none; border-radius:50%; box-shadow:none; background:#C99B69; cursor:pointer}
+.landoven-select-filter-slider .noUi-handle::before {content:""; position:absolute; left:-5px; top:-5px; right:-5px; bottom:-5px; border:none; background:none; width:auto; height:auto}
+.landoven-select-filter-slider .noUi-handle::after {display:none}
+.landoven-select-filter-slider .landoven-select-slider-params {display:none}
+.landoven-select-slider-views {margin:18px 0 0 0; display:flex; align-items:center}
+.landoven-select-slider-views-item {min-width:109px; max-width:109px; height:29px; padding:0 15px; border:1px solid rgba(255, 255, 255, 0.25); border-radius:4px; display:flex; justify-content:space-between}
+.landoven-select-slider-views-item-title {font-weight:500; font-size:14px; line-height:21px; padding:2px 0 0 0; color:rgba(255, 255, 255, 0.5)}
+.landoven-select-slider-views-item-value {position:relative; border:none; font:bold 16px/21px Hotpoint, sans-serif; color:#FFFFFF; vertical-align:top; text-align:right; margin:0; padding:1px 0 0 0; width:100%; height:22px; box-sizing:border-box; outline:none; border-radius:0; background:transparent; -webkit-appearance:none}
+.landoven-select-slider-views-sep {margin:0 10px; flex-grow:1; height:1px; background:rgba(255, 255, 255, 0.25)}
+.landoven-select-results {width:376px; margin:0 auto; position:relative}
+.landoven-select-results .swiper {border:1px solid rgba(201, 155, 105, 0.25); box-shadow:0px 0px 40px rgba(0, 0, 0, 0.15); border-radius:10px}
+.landoven-select-results-item {display:block; padding:20px 20px 30px 20px; text-decoration:none}
+.landoven-select-results-item-photo {display:flex; height:341px; align-items:center; justify-content:center}
+.landoven-select-results-item-photo img {width:auto; height:auto; max-width:100%; max-height:100%}
+.landoven-select-results-item-photo-mobile {display:none}
+.landoven-select-results-item-ctrl {margin:20px 0 0 0; display:flex; align-items:center; justify-content:space-between}
+.landoven-select-results-item-title {font-size:20px; line-height:30px; color:#FFFFFF}
+.landoven-select-results-item-detail {display:flex; height:43px; padding:0 23px; align-items:center; border:1px solid #CEA476; border-radius:4px; color:#CEA476; text-decoration:none; font-weight:500; font-size:16px; line-height:16px; text-transform:uppercase; transition:background 0.8s, color 0.8s}
+@media (min-width:1168px) {
+    .landoven-select-results-item:hover .landoven-select-results-item-detail {color:#FFFFFF; background:#CEA476}
+}
+.landoven-select-results-item-title-placeholder {margin:20px 0 0 0; font-weight:500; font-size:14px; line-height:21px; color:#FFFFFF; text-align:center}
+.landoven-select-results-item-text-placeholder {margin:10px 0 0 0; font-weight:normal; font-size:12px; line-height:18px; color:rgba(255, 255, 255, 0.5); text-align:center}
+.landoven-select-results-ctrl {margin:40px 0 0 0; display:flex; align-items:center}
+.landoven-select-results-ctrl .swiper-button-prev,
+.landoven-select-results-ctrl .swiper-button-next {position:relative; display:flex; align-items:center; justify-content:center; z-index:2; top:auto; min-width:30px; max-width:30px; height:30px; border:none; border-radius:0; margin:0; padding:0; outline:none; -webkit-appearance:none; cursor:pointer; background:transparent; transform:none; opacity:1}
+.landoven-select-results-ctrl .swiper-button-prev::after,
+.landoven-select-results-ctrl .swiper-button-next::after {display:none}
+.landoven-select-results-ctrl .swiper-button-prev {left:auto}
+.landoven-select-results-ctrl .swiper-button-next {right:auto}
+.landoven-select-results-ctrl .swiper-button-lock {display:none}
+.landoven-select-results-ctrl .swiper-button-prev svg,
+.landoven-select-results-ctrl .swiper-button-next svg {display:block; width:30px; height:30px; fill:#C99B69}
+.landoven-select-results-pagination {display:flex; width:100%; position:relative; height:10px}
+.landoven-select-results-ctrl .swiper-pagination.swiper-pagination-horizontal {display:flex; position:absolute; margin:0; width:auto; left:50%; top:0; right:auto; bottom:auto; align-items:center; justify-content:flex-start}
+.landoven-select-results-ctrl .swiper-pagination.swiper-pagination-horizontal .swiper-pagination-bullet {display:block; min-width:25px; max-width:25px; height:10px; background:transparent; opacity:1; margin:0; border-radius:0; cursor:pointer; position:relative}
+.landoven-select-results-ctrl .swiper-pagination.swiper-pagination-horizontal .swiper-pagination-bullet::before {content:""; position:absolute; left:50%; top:0; margin:0 0 0 -5px; width:10px; height:10px; background:#D9D9D9; border-radius:50%; transform:scale(0.5); transition:transform 0.8s, background 0.8s}
+.landoven-select-results-ctrl .swiper-pagination.swiper-pagination-horizontal .swiper-pagination-bullet-active::before {background:#C99B69; transform:scale(1)}
+.landoven-select-results-ctrl .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {transform:scale(1)}
+
+@media (max-width:1167px) {
+    .landoven-select {margin:80px 0 0 0}
+    .landoven-select-title {font-size:20px; line-height:24px}
+    .landoven-select-container {display:block; min-height:0 !important}
+    .landoven-select-filter {position:relative; left:auto; top:auto; right:auto; height:auto; background:#222222; border:1px solid #323232; border-radius:8px}
+    .landoven-select-filter-title {display:flex; align-items:center; justify-content:space-between; padding:15px; font-weight:500; font-size:16px; line-height:16px; color:#C99B69; text-transform:uppercase; cursor:pointer}
+    .landoven-select-filter-title img {min-width:12px; max-width:12px; height:7px; transition:transform 0.8s}
+    .landoven-select-filter.open .landoven-select-filter-title img {transform:rotate(-180deg)}
+    .landoven-select-filter form {display:none}
+    .landoven-select-filter.open form {display:block; margin:5px 0 0 0; padding:0 15px 15px 15px}
+    .landoven-select-filter-left {position:relative; left:auto; top:auto; width:auto}
+    .landoven-select-filter-right {position:relative; right:auto; top:auto; width:auto; margin:20px 0 0 0}
+    .landoven-select-filter-group {margin:20px 0 0 0}
+    .landoven-select-filter-group-section-title a {align-items:flex-start}
+    .landoven-select-filter-group-section-title a svg {margin:8px 18px 0 0}
+    .landoven-select-filter-group-section-content {padding:10px 0 0 29px}
+    .landoven-select-results {margin:20px 0 0 0; width:auto}
+    .landoven-select-results .swiper {border-radius:8px}
+    .landoven-select-results-item {padding:0 20px 30px 20px}
+    .landoven-select-results-item-photo {display:none}
+    .landoven-select-results-item-photo-mobile {display:flex; height:341px; align-items:center; justify-content:center}
+    .landoven-select-results-item-photo-mobile img {width:auto; height:auto; max-width:100%; max-height:100%}
+    .landoven-select-results-item-photo-mobile-placeholder img {min-width:260px}
+    .landoven-select-results-item-ctrl {margin:0}
+    .landoven-select-results-item-title {font-size:14px; line-height:21px}
+    .landoven-select-results-item-detail {padding:0 16px; font-size:14px; line-height:14px; height:36px}
+    .landoven-select-results-ctrl {margin:20px 0 0 0}
+}
